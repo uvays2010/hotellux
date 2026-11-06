@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Qulay xonalar, nafis muhit va unutilmas mehmondo‘stlik tajribasi.">
+    <title>HotelLux — Mehmonxona</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="theme-hotel">
+    <div class="noise"></div>
+    <header class="header"><a class="logo" href="#"><span
+                class="logo-symbol">H</span><span>HotelLux<small>MEHMONXONA</small></span></a>
+        <nav id="nav"><a href="#home">Bosh sahifa</a><a href="#explore">Kashf etish</a><a href="#about">Platforma</a><a
+                href="#contact">Aloqa</a></nav>
+        <div class="head-right"><button id="theme" class="icon-btn" aria-label="Tema">◐</button><button id="menu"
+                class="icon-btn menu-btn" aria-label="Menyu">☰</button><a class="nav-cta" href="#contact">Boshlash ↗</a>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-copy">
+                <div class="eyebrow"><span></span>MEHMONXONA <b> / 2026</b></div>
+                <h1>A stay worth remembering.</h1>
+                <p>Qulay xonalar, nafis muhit va unutilmas mehmondo‘stlik tajribasi.</p>
+                <div class="hero-actions"><a class="main-btn" href="#explore">Kashf etish <span>↗</span></a><a
+                        class="plain-link" href="#about">Ko‘proq bilish ↓</a></div>
+                <div class="hero-foot"><span>01 <i>—</i> 03</span><span>SCROLL TO EXPLORE</span></div>
+            </div>
+            <div class="hero-art">
+                <div class="booking-card">
+                    <div class="booking-head"><span>QUICK REQUEST</span><b>● AVAILABLE</b></div><label>Yo‘nalishni
+                        tanlang<select>
+                            <option>Skyline Suite</option>
+                            <option>Garden Room</option>
+                            <option>Signature Dining</option>
+                        </select></label>
+                    <div class="booking-row"><label>Sana<input type="date"></label><label>Mehmonlar<input type="number"
+                                min="1" value="1"></label></div><button class="action-btn" id="quickAction">So‘rovni
+                        ko‘rish ↗</button>
+                </div>
+            </div>
+            <div class="hero-watermark">HOTELLUX</div>
+        </section>
+        <div class="ticker">
+            <div>HOTELLUX ✳ MEHMONXONA ✳ INNOVATION • EXPERIENCE • DISCOVERY ✳ HOTELLUX ✳ MEHMONXONA ✳ INNOVATION •
+                EXPERIENCE • DISCOVERY ✳ HOTELLUX ✳ MEHMONXONA ✳ INNOVATION • EXPERIENCE • DISCOVERY</div>
+        </div>
+        <div id="explore">
+            <section class="section">
+                <div class="section-label">01 — EXPLORE THE WORLD</div>
+                <div class="section-heading">
+                    <h2>Siz uchun <i>yo‘nalishlar.</i></h2>
+                    <p>Har bir bo‘lim yangi imkoniyat va foydali ma’lumotlarni ochadi.</p>
+                </div>
+                <div class="cards-grid">
+                    <article class="item-card reveal">
+                        <div class="item-top"><span class="item-index">01</span><span class="item-icon">01</span></div>
+                        <h3>Skyline Suite</h3>
+                        <p>Shahar manzarali xona</p><button class="detail-btn" data-detail="Skyline Suite">Batafsil
+                            ko‘rish <span>↗</span></button>
+                    </article>
+                    <article class="item-card reveal">
+                        <div class="item-top"><span class="item-index">02</span><span class="item-icon">02</span></div>
+                        <h3>Garden Room</h3>
+                        <p>Bog‘ manzarasi</p><button class="detail-btn" data-detail="Garden Room">Batafsil ko‘rish
+                            <span>↗</span></button>
+                    </article>
+                    <article class="item-card reveal">
+                        <div class="item-top"><span class="item-index">03</span><span class="item-icon">03</span></div>
+                        <h3>Signature Dining</h3>
+                        <p>Maxsus restoran</p><button class="detail-btn" data-detail="Signature Dining">Batafsil ko‘rish
+                            <span>↗</span></button>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <section class="about-band" id="about">
+            <div class="section-label">02 — OUR APPROACH</div>
+            <div class="about-grid">
+                <h2>Yangi fikrlar uchun <i>yangi makon.</i></h2>
+                <div>
+                    <p>Qulay xonalar, nafis muhit va unutilmas mehmondo‘stlik tajribasi. Platforma qulay foydalanish,
+                        aniq ma’lumot va zamonaviy tajribani birlashtirish uchun ishlab chiqilgan.</p><a href="#contact"
+                        class="underlined">Biz bilan bog‘laning ↗</a>
+                </div>
+            </div>
+        </section>
+        <section class="contact section" id="contact">
+            <div>
+                <div class="section-label">03 — SAY HELLO</div>
+                <h2>Keyingi qadamni <i>birga boshlaymiz.</i></h2>
+                <p>Taklif yoki savolingizni qoldiring. Ushbu demo shakl xabarni sahifada tasdiqlaydi.</p>
+            </div>
+            <form id="contactForm"><input required name="name" placeholder="Ismingiz"><input required type="email"
+                    name="email" placeholder="Email manzilingiz"><textarea required name="message"
+                    placeholder="Xabaringiz..." rows="3"></textarea><button class="main-btn" type="submit">Yuborish
+                    <span>↗</span></button><small id="status" aria-live="polite"></small></form>
+        </section>
+    </main>
+    <footer><a class="logo" href="#"><span
+                class="logo-symbol">H</span><span>HotelLux<small>MEHMONXONA</small></span></a><span>© <b id="year"></b>
+            HotelLux. Barcha huquqlar himoyalangan.</span><a href="#home">Yuqoriga ↑</a></footer>
+    <div id="toast" class="toast"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
